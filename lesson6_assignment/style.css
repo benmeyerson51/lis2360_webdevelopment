@@ -3,8 +3,8 @@ body {
 	font-family: Times, Arial, Helvetica, sans-serif;
 	font-size: 12px;
 	line-height: 1.6em;
-	color: #FFFFFF;
-	background-color: #3DD9FF;
+	color: #FfFFFF;
+	background-color: #00008B;
 	padding: 0 40px;
 }
 p {
@@ -21,6 +21,7 @@ h1 {
 	font-variant: small-caps;
 	letter-spacing: .3em;
 	line-height: 2em;
+	background-color: #3A3A3A;
 }
 h2 {
 	font-size: 20px;
@@ -38,4 +39,40 @@ h3 {
 	padding: 4px 0;
 	font-variant: small-caps;
 	font-style: italic;
+}
+#sidebar {
+	width:278px;
+	float: right;
+	margin-top: 0px;
+	margin-right: 20px;
+	background: #42f4e5;
+	border: 1px solid #3A3A3A;
+	border-radius: 12px;
+	box-shadow: 5px 5px 2px #888888;
+}
+#container {
+	width: 900px;
+	margin: 0 auto;
+	background-color: #42f4e5;
+	overflow: hidden;
+	padding: 10px;
+}
+div {
+	display: block;
+	
+}
+html {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+#adam{
+	width:100%;
+	height:auto;
+}
+img {
+	overflow: hidden;
+}
+#content {
+	background-color: #42f4e5;
 }
