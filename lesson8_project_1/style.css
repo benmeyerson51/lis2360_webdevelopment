@@ -1,0 +1,133 @@
+body,head{
+    margin:0;
+    padding: 0;
+    font-family: Times, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 1.6em;
+}
+
+
+div {
+	display: block;
+	
+}
+html {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+h1 {
+	font-size: 24px;
+	padding: 4px 0;
+	font-variant: small-caps;
+	letter-spacing: .3em;
+	line-height: 2em;
+}
+h2 {
+	font-size: 20px;
+	padding: 6px;
+	font-variant: normal;
+	letter-spacing: 0.2em;
+}
+h3 {
+	font-size: 17px;
+	letter-spacing: 0.5em;
+	border-bottom-width: 1px;
+	border-bottom-style: inset;
+	padding: 4px 0;
+	font-variant: small-caps;
+	font-style: italic;
+}
+p {
+	letter-spacing: 0.2em;
+}
+#splash{
+    background-color:#212226 ;
+    height:787px;
+    background:url(/images/NBA_wallpaper.jpg) no-repeat center top fixed;
+    background-size: cover;
+}   
+#index{
+    background-color:#F7FFFE ;
+    height:900px;
+}
+#media{
+    background-color:#E5C460 ;
+    height:500px;
+}
+#about{
+    background-color:#0FAC42 ;
+    height:750px;
+}
+#footer{
+    background-color:#D7DCDE ;
+    height:10px;
+}
+#left_container{
+    background-color: #E5C460;
+  position: absolute;
+  left: 0px;
+  width: 50%;
+
+}
+#right_container{
+    background-color:#E5C460 ;
+  position: absolute;
+  right: 0px;
+  width: 50%;
+
+}
+#right_containeri{
+    background-color:#F7FFFE ;
+  position: absolute;
+  right: 0px;
+  width: 50%;
+
+}
+#left_containeri{
+    background-color: #F7FFFE;
+  position: absolute;
+  left: 0px;
+  width: 50%;
+
+}
+#left_containera{
+  background-color: #0FAC42;
+  position: absolute;
+  left: 0px;
+  width: 50%; 
+}
+#right_containera{
+    background-color:#0FAC42 ;
+  position: absolute;
+  right: 0px;
+  width: 50%;
+}
+#sidebar {
+	width:278px;
+	float: right;
+	margin-top: 0px;
+	margin-right: 20px;
+	border-radius: 12px;
+}
+#container{
+    width:960px;
+    margin:0 auto;
+    overflow:hidden;
+}
+#navbar{
+    width:100%;
+    background-color: rgba(255,255,255,0.4);
+    height:54px;
+}
+ul #menu{
+    list-style: none;
+    padding-top:0px;
+    
+} 
+ul #menu li {
+    float: left;
+    padding-bottom: 20px;
+    
+}
+
